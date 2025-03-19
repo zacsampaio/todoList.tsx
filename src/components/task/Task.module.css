@@ -1,0 +1,97 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--gray-500);
+    width: 47rem;
+}
+
+.task p {
+    font-size: 0.875rem;
+    color: var(--gray-100);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 80%;
+    margin: 0rem 1rem;
+}
+
+.task, .completed + .task, .completed{
+    margin-top: 0.75rem;
+}
+
+.completed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--gray-500);
+    width: 47rem;
+}
+
+.completed p {
+    font-size: 0.875rem;
+    color: var(--gray-300);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 80%;
+    margin: 0rem 1rem;
+    text-decoration: line-through;
+}
+
+.deleteButton{
+    background: transparent;
+    border: none;
+    color: var(--gray-300);
+    padding: 0.3rem 0.2rem 0rem 0.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background: var(--gray-400);
+    color: var(--red);
+
+}
+
+.completedButton{
+    background: transparent;
+    color: var(--blue);
+    border: none;
+    cursor: pointer;
+}
+
+.completedCheck{
+    background: var(--purple-dark);
+    color: var(--gray-100);
+    border: none;
+    border-radius: 100%;
+}
+
+.completedCheck:hover{
+    background: var(--purple);
+    color: var(--gray-100);
+    border: none;
+}
+
+.notCompletedCheck{
+    background: transparent;
+    color: var(--blue);
+    border: none;
+    border-radius: 100%;
+}
+
+.notCompletedCheck:hover{
+    background: var(--blue-dark);
+    color: var(--blue);
+    border: none;
+}
+
+button:focus{
+    outline: transparent;
+    box-shadow: none;
+}

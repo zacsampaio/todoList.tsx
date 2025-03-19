@@ -1,0 +1,31 @@
+.taskArea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.header {
+    margin: 4rem 1rem 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 47rem;
+    font-size: 0.875rem;
+}
+
+.header span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 0 0.5rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+}
+
+.createdTasks {
+    color: var(--blue);
+}
+
+.completedTasks{
+    color: var(--purple);
+}

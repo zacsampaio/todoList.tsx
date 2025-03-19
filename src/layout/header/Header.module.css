@@ -1,0 +1,31 @@
+.header {
+    background: var(--gray-700);
+    height: 12.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo{
+    display: flex;
+    margin-left: 0.5rem;   
+}
+
+.to {
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.do {
+    color: var(--purple-dark);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.header img {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 1.7rem;
+}
