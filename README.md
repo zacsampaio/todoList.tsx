@@ -29,7 +29,7 @@ Neste projeto, pude aprimorar:
    ```bash
    git clone https://github.com/zacsampaio/todoList.tsx.git
 
-2. Instale as dependências:
+2. Navegue até o diretório do projeto:
    ```bash
    cd todoList.tsx && npm install
    
